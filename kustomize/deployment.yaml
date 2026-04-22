@@ -4,7 +4,7 @@ metadata:
   name: nginx
   namespace: wsva
   annotations:
-    build: "20260406_103616"
+    build: "20260422_135647"
 spec:
   replicas: 1
   selector:
@@ -15,7 +15,7 @@ spec:
       labels:
         app: nginx
       annotations:
-        build: "20260406_103616"
+        build: "20260422_135647"
     spec:
       containers:
         - name: nginx
